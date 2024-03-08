@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "kobeattack",
+  "version": "${version}",
+  "name": "kobeAttack",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/z2858/kobeAttack"
+  },
+  "license": "MIT",
+  "icon": "launcher.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.suisho.mcmod.kobeattack.release.main.kobeattack.client.KobeAttackClient"
+    ],
+    "main": [
+      "com.suisho.mcmod.kobeattack.release.main.kobeattack.KobeAttack"
+    ]
+  },
+  "mixins": [
+    "kobeattack.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

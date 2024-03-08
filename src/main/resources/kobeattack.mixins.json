@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.suisho.mcmod.kobeattack.release.main.kobeattack.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerAttackMixin",
+    "playerUseItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
